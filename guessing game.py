@@ -16,7 +16,7 @@ while x != a:
             a = input()
         elif int(a) < x:
             print('Слишком мало, попробуйте еще раз')
-            a = int(input())
+            a = input()
         elif int(a) == x:
             break
 if int(a) == x:
